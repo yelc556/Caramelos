@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @yelc
+ * @yelc556
  */
 public class Caramelo {
     float total=0;
