@@ -26,6 +26,7 @@ public class DC extends javax.swing.JFrame {
     public DC() {
         initComponents();  
         setIconImage(new ImageIcon(getClass().getResource("/Imagenes/Icono.png")).getImage());
+        // hilo para cambiar el estado de la barra de progreso
         hilo= new TiempoEspera(getjProgressBar1());
         hilo.start();
         hilo = null;
